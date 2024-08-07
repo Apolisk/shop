@@ -1,14 +1,9 @@
+console.log(window.Telegram.WebApp.initDataUnsafe);
 
-
-
-let theme = true;
-document.getElementById("clic_me").onclick = function(){
-    theme = !theme
-    if(theme == true){
-    document.body.style.background  = "white";
-    document.body.style.color = "black";
-    }else{
-    document.body.style.background  = "black";
-    document.body.style.color = "white";
-    }
+function setThemeClass() {
+  document.documentElement.className = Telegram.WebApp.colorScheme;
 }
+
+Telegram.WebApp.onEvent("themeChanged", setThemeClass);
+setThemeClass();
+let tg = window.Telegram.WebApp;
