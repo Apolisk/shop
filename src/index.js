@@ -1,9 +1,11 @@
-console.log(window.Telegram.WebApp.initDataUnsafe);
 
-function setThemeClass() {
-  document.documentElement.className = Telegram.WebApp.colorScheme;
-}
 
-Telegram.WebApp.onEvent("themeChanged", setThemeClass);
-setThemeClass();
+
 let tg = window.Telegram.WebApp;
+tg.expand();
+let user = document.getElementById("user ");
+let p = document.createElement("p");
+
+p.innerText=`${tg.initDataUnsafe.first_name}`;
+
+user.appendChild(p);
