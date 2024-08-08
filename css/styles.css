@@ -9,11 +9,11 @@ body {
 
 .container {
 	max-width: 390px;
-	border: 2px solid #000000 ;
 }
 
 .inner {
-	display: inline;
+	display: flex;
+	flex-direction: column;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 200px 200px 200px;
 }
@@ -27,20 +27,16 @@ body {
 }
 
 .btn {
-	display: ;
-	padding: 10px 20px;
-	border: none;
-	background: rgb(248, 168, 24);
-	border-radius: 10px;
-	color: #fff;
-	text-transform: uppercase;
-	font-weight: 700;
-
-	transition: background .2s linear;
-}
-
-.btn:hover {
-	background: lightgreen;
+	display: block;
+	padding: 10px 100px;
+    border: none;
+    background: rgb(248, 168, 24);
+    border-radius: 6px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 10px;
+	margin: 0 auto;
 }
 
 .usercard {
