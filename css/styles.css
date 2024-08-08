@@ -36,9 +36,9 @@ body {
 	display: block;
 	padding: 10px 100px;
     border: none;
-    background: rgb(248, 168, 24);
+    background: var(--tg-theme-button-color);
     border-radius: 6px;
-    color: #fff;
+    color: var(--tg-theme-button-text-color);
     text-transform: uppercase;
     font-weight: 700;
     margin-top: 10px;
