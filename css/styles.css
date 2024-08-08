@@ -4,14 +4,16 @@ body {
 	font-size: 18px;
 	color: var(--tg-theme-text-color);
 	background: var(--tg-theme-bg-color);
+	height: var(--tg-viewport-height);
 }
 
 .container {
 	max-width: 390px;
+	border: 2px solid #000000 ;
 }
 
 .inner {
-	display: grid;
+	display: inline;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 200px 200px 200px;
 }
@@ -25,7 +27,7 @@ body {
 }
 
 .btn {
-	display: inline-block;
+	display: ;
 	padding: 10px 20px;
 	border: none;
 	background: rgb(248, 168, 24);

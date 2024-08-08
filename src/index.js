@@ -6,12 +6,17 @@ tg.MainButton.textColor = '#FFFFFF';
 tg.MainButton.color = '#2cab37';
 
 let item = "";
+let btn = document.getElementsByTagName("button")
+
+btn.addEventListener("click", function(){
+	console.log("clicked");
+});
 
 let btn1 = document.getElementById("btn1");
 let btn2 = document.getElementById("btn2");
 let btn3 = document.getElementById("btn3");
 let btn4 = document.getElementById("btn4");
-
+btn1.getAttribute
 btn1.addEventListener("click", function(){
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
@@ -63,14 +68,7 @@ Telegram.WebApp.onEvent("mainButtonClicked", function(){
 });
 
 
-let usercard = document.getElementById("usercard");
 
-let p = document.createElement("p");
-
-p.innerText = `${tg.initDataUnsafe.user.first_name}
-${tg.initDataUnsafe.user.last_name}`;
-
-usercard.appendChild(p);
 
 
 
