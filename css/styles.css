@@ -4,17 +4,12 @@ body {
 	font-size: 18px;
 	
 }
-.shop{
-
-	text-align: center;
-	padding-top: 5%;
-	padding-bottom: 5%;
-}
 
 .container {
 	color: var(--tg-theme-text-color);
 	background: var(--tg-theme-bg-color);
 	max-width: 390px;
+	color: var(--tg-theme-button-text-color);
 }
 
 .inner {
@@ -34,11 +29,10 @@ body {
 
 .btn {
 	display: block;
-	padding: 10px 100px;
+	padding: 5px 5px;
     border: none;
     background: var(--tg-theme-button-color);
     border-radius: 6px;
-    color: var(--tg-theme-button-text-color);
     text-transform: uppercase;
     font-weight: 700;
     margin-top: 10px;
