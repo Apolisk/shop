@@ -5,21 +5,24 @@ body {
 
 .container{
 	width: 100%;
+	
 	display: grid;
 }
-/* .item{
+.item{
 	
-} */
+	display: grid;
+}
 .img{
-	display: block;
+	/* display: block; */
 	margin-left: auto;
     margin-right: auto;
 
 }
 .btn{
+	color: red;
 	margin-left: auto;
     margin-right: auto;
-	display: block;
+	/* display: block; */
 }
 
 
