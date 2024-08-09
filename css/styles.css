@@ -4,13 +4,18 @@ body {
 }
 
 .container{
-	width: 50%;
+	width: 100%;
 	display: grid;
 }
-.item{
+/* .item{
 	
-}
+} */
+.img{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
 
+}
 .btn{
 	margin-left: auto;
     margin-right: auto;
