@@ -11,7 +11,7 @@ body {
 .item{
 	
 	display: grid;
-	padding: 2%;
+	padding: 4%;
 }
 .img{
 
@@ -27,7 +27,7 @@ body {
 	color: var(--tg-theme-button-text-color);
 	background-color: var(--tg-theme-button-color);
 	padding: 2% 17%;
-	border-radius: 5px;
+	border-radius: 20px;
 	border:none;
 	margin-left: auto;
     margin-right: auto;
