@@ -11,10 +11,10 @@ body {
 .item{
 	
 	display: grid;
-	padding: 4%;
+	padding: 3%;
 }
 .img{
-
+	width: 95%;
 	margin-left: auto;
     margin-right: auto;
 
@@ -23,11 +23,14 @@ body {
 	font-family: "Press Start 2P", system-ui;
   	font-weight: 400;
   	font-style: normal;
+	font-size: 22px;
 	border: 1px solid black;
-	color: var(--tg-theme-button-text-color);
-	background-color: var(--tg-theme-button-color);
+	/* color: var(--tg-theme-button-text-color); */
+	/* background-color: var(--tg-theme-button-color); */
 	padding: 2% 17%;
-	border-radius: 20px;
+	margin: 2%;
+	width: 95%;
+	border-radius: 10px;
 	border:none;
 	margin-left: auto;
     margin-right: auto;
